@@ -1,1 +1,17 @@
-<body onload="window.open('https://dashboard.twitch.tv/popout/u/amazingca_/stream-manager/edit-stream-info','new-window','width=424,height=698'); window.close();"></body>
+<div class="name-entry">
+  <form action="#">
+    <label for="fname">To activate the popup, we need some details about your channel:</label><br>
+    <input type="text" name="name" placeholder="Channel Name"><br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<script>
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+
+  if (urlParams.get('name') != null) {
+
+    window.open(`https://dashboard.twitch.tv/popout/u/${urlParams.get('name')}/stream-manager/edit-stream-info`, 'new-window', 'width=424,height=698');
+  }
+</script>
