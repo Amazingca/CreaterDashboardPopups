@@ -8,6 +8,7 @@
  - [Activity Feed](https://amazingca.github.io/CreatorDashboardPopups/ActivityFeed)
  - [Chat](https://amazingca.github.io/CreatorDashboardPopups/Chat)
  - [Quick Actions](https://amazingca.github.io/CreatorDashboardPopups/QuickActions)
+ - [Preview](https://amazingca.github.io/CreatorDashboardPopups/Preview)
 
 <p>&nbsp;</p>
 
