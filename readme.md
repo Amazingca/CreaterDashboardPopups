@@ -17,3 +17,6 @@
 
 #### For keybind or Stream Deck applications, send the appropriate site URI: `/CreatorDashboardPopups/EditStreamInfo` with the appropriate channel name parameter: `?name={data}`
 #### An example of a valid popup URL is `https://amazingca.github.io/CreatorDashboardPopups/EditStreamInfo?name={ChannelName}`
+
+
+##### If you would like me to add more stream popups let me know! I am happy to add more if anyone would like to use it! Contact me at `Amazingca#3060`.
