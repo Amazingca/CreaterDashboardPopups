@@ -10,7 +10,6 @@
 
 ### Quickstart Tutorial:
 #### Each popup grabs the channel name parameter from the popup URI: `?name={data}`
-#### If this paramter is given, then you will automatically trigger the popup.
 
 #### For keybind or Stream Deck applications, send the appropriate base site URL: `/CreaterDashboardPopups/EditStreamInfo` with the appropriate channel name parameter: `?name={data}`
 #### An example of a valid popup URL is `https://amazingca.github.io/CreaterDashboardPopups/EditStreamInfo?name={ChannelName}`
