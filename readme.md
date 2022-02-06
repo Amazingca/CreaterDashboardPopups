@@ -4,7 +4,7 @@
 <p>&nbsp;</p>
 
 ### This repo currently supports these popups:
- - [Edit Stream Info](./EditStreamInfo.html)
+ - [Edit Stream Info](https://amazingca.github.io/CreaterDashboardPopups/EditStreamInfo.html)
 
 <p>&nbsp;</p>
 
