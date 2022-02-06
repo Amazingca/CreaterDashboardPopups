@@ -34,7 +34,7 @@
       if (urlParams.get('name') != null) {
 
         window.open(`https://dashboard.twitch.tv/popout/u/${urlParams.get('name')}/stream-manager/edit-stream-info`, 'new-window', 'width=424,height=698');
-        document.close();
+        window.close();
       }
     </script>
   </body>
