@@ -1,6 +1,8 @@
 ## Creater Dashboard Popups
 ### A relatively simple Twitch popup to control your stream.
 
+<p>&nbsp;</p>
+
 ### This repo currently supports these popups:
  - [Edit Stream Info](./EditStreamInfo.html)
 
