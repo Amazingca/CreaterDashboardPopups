@@ -5,6 +5,9 @@
 
 ### This repository currently supports these popups:
  - [Edit Stream Info](https://amazingca.github.io/CreatorDashboardPopups/EditStreamInfo)
+ - [Activity Feed](https://amazingca.github.io/CreatorDashboardPopups/ActivityFeed)
+ - [Chat](https://amazingca.github.io/CreatorDashboardPopups/Chat)
+ - [Quick Actions](https://amazingca.github.io/CreatorDashboardPopups/QuickActions)
 
 <p>&nbsp;</p>
 
