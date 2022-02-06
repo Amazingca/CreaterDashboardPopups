@@ -1,5 +1,5 @@
 ## Creater Dashboard Popups
-### A relatively simple Twitch popup to control your stream.
+### A relatively simple Twitch popup to control your stream. Some applications for this are Stream Deck support; allowing you to quickly open up and manage your stream.
 
 <p>&nbsp;</p>
 
