@@ -1,5 +1,22 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8">
+    <meta property="og:locale" content="en-US">
+    <title>Edit Stream Info | CreaterDashboardPopups</title>
+    <link type="text/css" rel="stylesheet" href="./style.css">
+    <link rel="icon" href="https://site.amazingca.dev/favicon.ico">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Edit Stream Info | CreaterDashboardPopups">
+    <meta property="og:site_name" content="Edit Stream Info">
+    <meta property="og:url" content="https://amazingca.github.io/CreaterDashboardPopups">
+    <meta property="og:image" content="https://site.amazingca.dev/background.png">
+    <meta property="twitter:image" content="https://site.amazingca.dev/background.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:description" content="A relatively simple Twitch popup to control your stream.">
+  </head>
   <body style="margin: 0;">
     <img src="https://site.amazingca.dev/background.png" style="z-index: -1; object-fit: cover; position: fixed; width: 100%; height: 100vh;">
     <canvas style="background: black; height: 100vh; top: 0vh; bottom: 100vh; left: 47vw; position: fixed; opacity: 50%; border-top-left-radius: 30px 30px; border-bottom-left-radius: 30px 30px;"></canvas>
@@ -17,7 +34,7 @@
       if (urlParams.get('name') != null) {
 
         window.open(`https://dashboard.twitch.tv/popout/u/${urlParams.get('name')}/stream-manager/edit-stream-info`, 'new-window', 'width=424,height=698');
-        window.close();
+        document.close();
       }
     </script>
   </body>
